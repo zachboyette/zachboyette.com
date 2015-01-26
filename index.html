@@ -2,7 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
     <head>
 		<!-- BASICS -->
         <meta charset="utf-8">
@@ -19,6 +19,12 @@
 		<link rel="stylesheet" href="skin/default.css">
 		<link rel="shortcut icon" href="img/faviconZB.ico" type="image/x-icon">
     <link rel="icon" href="img/faviconZB.ico" type="image/x-icon">
+    <!-- Preview Image for LinkedIn Summary -->
+    <meta property="og:title" content="Zach Boyette" />
+    <meta property="og:image" content="http://www.zachboyette.com/img/LinkedinWebsiteLink.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="296" />
+    <meta property="og:image:height" content="134" />
 
     <!-- Google Analytics -->
 <script>
@@ -43,18 +49,17 @@ ga('send', 'pageview');
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 						<span class="fa fa-bars color-white"></span>
 					</button>
-					<h1><a class="navbar-brand" data-0="line-height:90px;" data-300="line-height:50px;">			Zach Boyette
+					<h1><a href="#header" class="navbar-brand" data-0="line-height:90px;" data-300="line-height:50px;">			Zach Boyette
 					</a></h1>
 				</div>
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="#section-about">About</a></li>
-						<li><a href="#parallax2">Education</a></li>
-						<li><a href="#section-experience">Experience</a></li>
-						<li><a href="#parallax1">My Company</a></li>
+						<li class="active"><a href="#section-about">About</a></li>
+						<li><a href="#section-education">Education</a></li>
+						<li><a href="#section-my-startup">My Startup</a></li>
+						<li><a href="#section-procter-gamble">P&G</a></li>
+						<li><a href="#section-experience">Experience</a></li>			
 						<li><a href="#section-fun">Fun</a></li>
-						<!-- <li><a href="#parallax3">Post-Grad</a></li> -->
 						<li><a href="#section-contact">Contact</a></li>
 					</ul>
 				</div><!--/.navbar-collapse -->
@@ -67,7 +72,7 @@ ga('send', 'pageview');
 					<div class="col-md-6 col-md-offset-3">
 						
 						<div class="align-center">
-							<img class="img-circle" src="img/face.png">
+							<img class="img-circle" src="img/ZachSquareBlue200x200.jpg">
 							<h2 class="slogan">Zach Boyette</h2>
 							<p>
 							Co-Founder of Recsy<br>
@@ -82,50 +87,119 @@ ga('send', 'pageview');
 		
 		<!-- services -->
 		<section id="section-about" class="section pad-bot30 bg-white appear clearfix">
+			<div class="row mar-bot40">
+					<div class="col-md-offset-3 col-md-6">
+						<div class="section-header">
+							<h2 class="section-heading animated" data-animation="bounceInUp">About Me</h2>
+						</div>
+					</div>
+				</div>
 		<div class="container"> 
-		
 			<div class="row mar-bot40">
 				<div class="col-lg-4" >
 					<div class="align-center">
 						<i class="fa fa-money fa-5x mar-bot20"></i>
 						<h4 class="text-bold">Hustler</h4>
-						<p>Along with co-founding my own business, I've worked with several companies in sales, marketing, HR, and data analyst roles.
+						<p>Co-founder of <a href="http://www.recsy.com">Recsy</a> and <a href="http://recruiterpanda.recsy.com">Recruiter Panda.</a><br>Love making great ideas come to life.
 						</p>
 					</div>
 				</div>
 					
 				<div class="col-lg-4" >
 					<div class="align-center">
-						<i class="fa fa-sitemap fa-5x mar-bot20"></i>
-						<h4 class="text-bold">Leader</h4>
-						<p>I like helping people do their best. I've been a group leader on many ventures, and held VP and exec roles in campus organizations.
-						</p>
-					</div>
-				</div>
-			
-				<div class="col-lg-4" >
-					<div class="align-center">
 						<i class="fa fa-code fa-5x mar-bot20"></i>
 						<h4 class="text-bold">Coder</h4>
-						<p>I have self-taught skills in web design and server-side programming.
+						<p>Self-taught developer and designer.<br>Ruby on Rails is my jam.
 						</p>
 					</div>
 				</div>
+
+				<div class="col-lg-4" >
+					<div class="align-center">
+						<i class="fa fa-sitemap fa-5x mar-bot20"></i>
+						<h4 class="text-bold">Connector</h4>
+						<p>Big network. Super passionate about getting people in touch so they can find happy jobs.
+						</p>
+					</div>
+				</div>
+				
 			
 			</div>	
 
 		</div>
 		</section>
 			
-		<section id="parallax2" class="section appear clearfix" data-stellar-background-ratio="0.5">	
-            <div class="align-center pad-top40 pad-bot40">
-            	<h2 class="section-heading animated" data-animation="bounceInUp" style="color:white">EDUCATION</h2>
-                <blockquote class="bigquote color-white">Vanderbilt University, B.S. 2014<br>Human & Organizational Development<br>Minor in Economics</blockquote>
+		<section id="section-education" class="section appear clearfix" data-stellar-background-ratio="0.5">	
+			<div class="row mar-bot40">
+					<div class="col-md-offset-3 col-md-6">
+						<div class="section-header">
+							<h2 class="section-heading animated" data-animation="bounceInUp">Education</h2>
+						</div>
+					</div>
+				</div>
+            <div class="align-center">
+                <blockquote class="bigquote color-white" style="font-size:45px;">Vanderbilt University, B.S. 2014</blockquote><h3 style="color:white; font-size:30px;"><strong>Human & Organizational Development;<br>Economics</strong></h3>
             </div>
 		</section>
 
+<!-- UPDATED RECSY BLURB -->
+
+<section id="section-my-startup" class="section pad-top40 pad-bot40 appear clearfix" data-stellar-background-ratio="0.5">
+
+<div class="row mar-bot40">
+					<div class="col-md-offset-3 col-md-6">
+						<div class="section-header">
+							<h2 class="section-heading animated" data-animation="bounceInUp">My Startup: Recsy</h2>
+						</div>
+					</div>
+				</div>
+<div class="home container" id="RecsyBlurbPhoto" style="margin-bottom:20px; ">
+    		<div class="row">
+          <div class="col-md-8" style="max-width:100%; height:auto; float:left; ">
+          <a href="http://www.recsy.com"><img src="img/RecsyBlurb.png" style="max-width:100%; height:auto; float:left; padding-right:25px;" /></a>
+          </div>
+          <span style="width:100px;"></span>
+          <h3 style="color:black; font-family: 'Dosis', sans-serif; font-weight:200; font-size:35px;" class="helv">Convert your <b>LinkedIn</b> profile into a <b>website</b>. Instantly.</h3><br><h5 style="color:black; font-family: 'Dosis', sans-serif; font-weight:200; font-size:24px;">Enter your email to join the <b>private beta.</b></h5>
+          <br>
+
+	<!-- Begin MailChimp -->
+	<div class="row">
+	<div class="horizontal-form col-md-4 animation-target" id="mc_embed_signup">
+	      <form action="//Recsy.us8.list-manage.com/subscribe/post?u=e70f925915e5fdaab0c3c56be&amp;id=cdb122e89b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	      <div class="input-group" id="mc_embed_signup_scroll" >
+		  <input style="height:60px; margin-bottom:0px;" type="email" class="form-control input-lg" name="EMAIL" id="email" placeholder="Email Address" required="required"/>
+
+	     <!-- This prevents bots from signing up -->
+	    <div style="position: absolute; left: -5000px;"><input type="text" name="b_e70f925915e5fdaab0c3c56be_cdb122e89b" tabindex="-1" value=""></div>
+
+	      
+	      <span class="input-group-btn">
+	        <input style="height:60px;" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg btn-danger">
+	      </span>
+		    </div>
+		  </form>
+		</div>
+	</div>
+	<!--End Mailchimp -->
+
+</section>
 
 
+<!-- P&G spacer section -->
+		<section id="section-procter-gamble" class="section pad-top40 pad-bot40 appear clearfix" data-stellar-background-ratio="0.5">
+			<div class="row mar-bot40">
+					<div class="col-md-offset-3 col-md-6">
+						<div class="section-header">
+							<h2 class="section-heading animated" data-animation="bounceInUp">Procter & Gamble</h2>
+						</div>
+					</div>
+				</div>
+			<div class="container">
+            <div class="align-center pad-top40 pad-bot40" style="max-width:1000px;">
+                <blockquote class="bigquote color-white">Recently moved to P&G's corporate headquarters in Cincinnati to start my career with the consumer goods giant.</blockquote>
+            </div>
+			</div>	
+		</section>
 
 
 <!-- section works -->
@@ -135,7 +209,7 @@ ga('send', 'pageview');
 				<div class="row mar-bot40">
 					<div class="col-md-offset-3 col-md-6">
 						<div class="section-header">
-							<h2 class="section-heading animated" data-animation="bounceInUp">Experience</h2>
+							<h2 class="section-heading animated" data-animation="bounceInUp">Previous Experience</h2>
 							<p>(Click picture to view information)</p>
 						</div>
 					</div>
@@ -158,13 +232,8 @@ ga('send', 'pageview');
 										<img src="img/portfolio/img1.jpg" alt="" />
 										 <div class="portfolio-desc align-center">
 											<div class="folio-info">
-												<h3><a>Procter & Gamble</h3><h4>HR Intern (Summer 2013)</h4></a>
-												<p>I led projects in a variety of areas, including: immigration policy, diversity recruiting, employment branding, candidate sourcing, touch point analysis, and omni-channel marketing.</p>
-												
-												<!-- Optional plus to link to website
-												<a href="http://www.pg.com/en_US/index.shtml" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
-												-->
-
+												<h3><a>Procter & Gamble</h3><h4>Talent Supply Intern (Summer 2013)</h4></a>
+												<p>Led projects in a variety of areas, including: quantitative forecasting, millenial sensing, immigration policy, employment branding, candidate sourcing, touch point analysis, and omni-channel marketing.</p>
 											 </div>										   
 										 </div>
 									</div> 
@@ -176,7 +245,7 @@ ga('send', 'pageview');
 										 <div class="portfolio-desc align-center">
 											<div class="folio-info">
 												<h3><a>North Star Destination Strategies</h3><h4>Marketing and Sales Intern (Fall 2013)</h4></a>
-												<p>I discovered $2M in potential grant funding sales leads, designed brand deliverables, and analyzed client trends to develop recommendations for the marketing strategy.</p>
+												<p>Discovered $2M in potential sales leads, designed brand deliverables, analyzed data trends to inform marketing strategy for clients.</p>
 											 </div>										   
 										 </div>
 									</div>
@@ -189,7 +258,7 @@ ga('send', 'pageview');
 										 <div class="portfolio-desc align-center">
 											<div class="folio-info">
 												<h3><a>Market Street Solutions</h3><h4>Sales Analyst Intern (Summer 2012)</h4></a>
-												<p>I created a new system for evaluating pipeline clients, using data-based forecasting metrics. I presented my findings to the CEO on a bi-weekly basis.</p>
+												<p>Created system for evaluating pipeline clients, using data-based forecasting metrics. Presented findings to CEO on bi-weekly basis.</p>
 											 </div>										   
 										 </div>
 									</div>
@@ -200,8 +269,8 @@ ga('send', 'pageview');
 										<img src="img/portfolio/img4.jpg" alt="" />
 										 <div class="portfolio-desc align-center">
 											<div class="folio-info">
-												<h3><a>Lambda Chi Alpha Fraternity</h3><h4>Vice President, Recruitment Chair<br>(Fall 2011 - present)</h4></a>
-												<p>I orchestrated relations with 20+ organizations and 100+ prospective members, spearheaded an $8K+ fundraiser, and advised spending on $120K budget.</p>
+												<h3><a>Lambda Chi Alpha Fraternity</h3><h4>Vice President, Recruitment Chair<br>(Fall 2011 - Spring 2014)</h4></a>
+												<p>Orchestrated relations with 20+ organizations and 100+ prospective members, spearheaded an $8K+ fundraiser, and advised spending on $120K budget.</p>
 											 </div>										   
 										 </div>
 									</div>
@@ -212,8 +281,8 @@ ga('send', 'pageview');
 										<img src="img/portfolio/img5.jpg" alt="" />
 										 <div class="portfolio-desc align-center">
 											<div class="folio-info">
-												<h3><a>Alpha Kappa Psi Business Fraternity</h3><h4>Exec Board, Pledge Class President<br>(Winter 2011 - present)</h4></a>
-												<p>I led efforts to connect members with potential employers, and controlled 50% of the chapter's budget.</p>
+												<h3><a>Alpha Kappa Psi Business Fraternity</h3><h4>Exec Board, Pledge Class President<br>(Winter 2011 - Spring 2014)</h4></a>
+												<p>Leader in connecting members with employers, controlled 50% of chapter's budget.</p>
 											 </div>										   
 										 </div>
 									</div>
@@ -225,7 +294,7 @@ ga('send', 'pageview');
 										 <div class="portfolio-desc align-center">
 											<div class="folio-info">
 												<h3><a>Vanderbilt Student Government</h3><h4>First-Year Leadership Program<br>(Fall 2010 - Spring 2011)</h4></a>
-												<p>I planned 3 campus-wide events as a member of the premiere application-based leaders group.</p>
+												<p>Planned three campus-wide events as member of this premiere application-based leaders group.</p>
 											 </div>										   
 										 </div>
 									</div>
@@ -237,7 +306,7 @@ ga('send', 'pageview');
 										 <div class="portfolio-desc align-center">
 											<div class="folio-info">
 												<h3><a>Vanderbilt Rowing</h3><h4>Varsity Rower (Fall 2010 - Fall 2011)</h4></a>
-												<p>I led our boat to victory in many regattas with heated competition.</p>
+												<p>Led our boat to victory in many regattas with heated competition.</p>
 											 </div>										   
 										 </div>
 									</div>
@@ -249,7 +318,7 @@ ga('send', 'pageview');
 										 <div class="portfolio-desc align-center">
 											<div class="folio-info">
 												<h3><a>VUcept Student Orientation</h3><h4>Orientation Leader<br>(Winter 2012 - Winter 2013)</h4></a>
-												<p>I created a 4-month orientation program with weekly events to provide mentorship for my 17-person freshman group.</p>
+												<p>Created 4-month orientation program with weekly events to provide mentorship for 17-person freshman group.</p>
 											 </div>										   
 										 </div>
 									</div>
@@ -261,39 +330,23 @@ ga('send', 'pageview');
 										 <div class="portfolio-desc align-center">
 											<div class="folio-info">
 												<h3><a>AIM Center</h3><h4>Founder, STOP Stigma<br>Summer 2009 - Summer 2010</h4></a>
-												<p>I founded a program aimed at dispelling the myths about youth mental illness, and traveled to 11 high schools in the area giving presentations.</p>
+												<p>Founded program to dispel myths about youth mental illness, traveled to 11 high schools in area giving presentations.</p>
 											 </div>										   
 										 </div>
 									</div>
                                 </article>
-                                
-                                </div>
-                                        
-							</div>
-                                     
 
-							</div>
-                        </div>
-				
-			</div>
+                               </div>                                        
+							</div>                                    
+						</div>
+                    </div>
+				</div>
 		</section>
 		
 
 
-
-	
-			
-
-
-			<section id="parallax1" class="section appear clearfix" data-stellar-background-ratio="0.5">	
-            <div class="align-center pad-top40 pad-bot40">
-            	<h2 class="section-heading animated" data-animation="bounceInUp">THE COMPANY I CO-FOUNDED</h2><br><br><br><br>
-                <h1><strong>Recsy</strong><br><br><br></h1><h3>Easily design your own personal website with the help of career gurus.</h3><br>
-				<a href="https://recsy.com" class="btn btn-primary btn-lg">Visit Website</a><br><br><br><br>
-            </div>
-		</section>
-
 		<!-- about -->
+		<div id="fun"></div>
 		<section id="section-fun" class="section appear clearfix">
 		<div class="container">
 
@@ -301,7 +354,7 @@ ga('send', 'pageview');
 					<div class="col-md-offset-3 col-md-6">
 						<div class="section-header">
 							<h2 class="section-heading animated" data-animation="bounceInUp">What I Do For Fun</h2>
-							<p>Don't worry, I do more than just business and techy stuff.</p>
+							<p>Don't worry, I like more than just business and techy stuff.</p>
 						</div>
 					</div>
 				</div>
@@ -321,16 +374,7 @@ ga('send', 'pageview');
 								<figure class="member-photo"><img src="img/team/member2.jpg" alt="" /></figure>
 								<div class="team-detail">
 									<h4>Rowing</h4>
-									<span>9th in the U.S.A. in high school, rowed for Vanderbilt, now recreationally</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="team-member">
-								<figure class="member-photo"><img src="img/team/member3.jpg" alt="" /></figure>
-								<div class="team-detail">
-								<h4>Volunteering</h4>
-									<span>Started a program to dispel the stigmas surrounding mental illness</span>
+									<span>9th in USA in high school, competed for Vandy, now recreationally</span>
 								</div>
 							</div>
 						</div>
@@ -339,10 +383,19 @@ ga('send', 'pageview');
 								<figure class="member-photo"><img src="img/team/member4.jpg" alt="" /></figure>
 								<div class="team-detail">
 								<h4>Writing</h4>
-									<span>Write short stories, currently writing a fiction novel</span>
+									<span>Short stories, working on a fiction novel (but aren't we all?)</span>
 								</div>
 							</div>
 						</div>
+						<div class="col-md-3">
+							<div class="team-member">
+								<figure class="member-photo"><img src="img/team/member3.jpg" alt="" /></figure>
+								<div class="team-detail">
+								<h4>Volunteering</h4>
+									<span>Started program to dispel stigmas about youth mental illness</span>
+								</div>
+							</div>
+						</div>	
 					</div>
 						
 		</div>
@@ -350,18 +403,8 @@ ga('send', 'pageview');
 		<!-- /about -->
 		
 
-<!-- P&G spacer section: stats
 
-		<section id="parallax3" class="section pad-top40 pad-bot40 appear clearfix" data-stellar-background-ratio="0.5">
-			<div class="container">
-            <div class="align-center pad-top40 pad-bot40">
-            	<h2 class="section-heading animated" data-animation="bounceInUp">AFTER GRADUATION</h2>
-                <blockquote class="bigquote color-white">I've accepted a role with Procter & Gamble as an HR Business Account Manager.</blockquote>
-            </div>
-			</div>	
-		</section>
 		
-		-->
 
 		<!-- contact -->
 		<section id="section-contact" class="section appear clearfix">
@@ -371,7 +414,7 @@ ga('send', 'pageview');
 					<div class="col-md-offset-3 col-md-6">
 						<div class="section-header">
 							<h2 class="section-heading animated" data-animation="bounceInUp">Contact Me?</h2>
-							<p>I'd love to hear from you.</p>
+							<p>I'm a pretty social dude.</p>
 						</div>
 					</div>
 				</div>
@@ -426,9 +469,13 @@ ga('send', 'pageview');
 				</div>
 			</div>
 
-			
+		<div class="row align-center copyright">
+					<div class="col-sm-12"><p>Powered by <a href="http://www.recsy.com">Recsy</a></p></div>
+			</div>
 
 	</section>
+
+
 	<a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>	
 
 	<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>

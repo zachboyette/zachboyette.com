@@ -8,6 +8,17 @@
 /*==========================================================================
   General
   ========================================================================== */
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    background-repeat: no-repeat;
+}
+
 body {
 	color:#777;
 	background: #f7f7f7;
@@ -332,6 +343,7 @@ section.section {
 
 #parallax1{	
 	background-image: url(../img/parallax/img1.jpg);
+	background-repeat:no-repeat;
 	font-family:arial;
 }
 
@@ -350,28 +362,42 @@ section.section {
 	color:#333333;
 }
 
-#parallax2{	
+#section-education{	
 	background-image: url(../img/parallax/img2.jpg);
+	background-repeat:no-repeat;
 }
 
-#parallax2 h2 {
+#section-education h2 {
 	color: #fff;
 	font-size: 48px;
 	font-weight: 900;
 }
 
-#parallax3{	
+#section-procter-gamble{	
 	background-image: url(../img/parallax/img3.jpg);
+	background-repeat:no-repeat;
+	height:100vh;
 }
 
-#parallax3 h2 {
+#section-procter-gamble h2 {
 	color: #fff;
 	font-size: 46px;
 	font-weight: 900;
 
 }
+
+#section-my-startup{	
+	background-image: url(../img/blurredWhiteBackground.png);
+	background-repeat: no-repeat;
+}
+
+#education {
+
+}
+
 #testimonials{	
 	background-image: url(../img/parallax/img3.jpg);
+	background-repeat:no-repeat;
 }
 /*===========================
   --- Header & menu ----
@@ -684,7 +710,7 @@ nav#filter a {
 }
 
 
-.portfolio-items article img {width:100%;} 
+.portfolio-items article img {width:100%; height:100%;} 
 
 .portfolio-item {
 	display: block;
@@ -695,6 +721,8 @@ nav#filter a {
 	transition: all 0.2s ease-in-out;
 }
 .portfolio-item img {
+	width: 100%;
+	height: 100%;
 	-webkit-transition: all 300ms linear;
 	-moz-transition: all 300ms linear;
 	-o-transition: all 300ms linear;
@@ -707,6 +735,7 @@ nav#filter a {
     opacity: 0;
     position: absolute;
     width: 100%;
+    height: 100%;
 	left: 0;
 	top: 0;
 	color: rgba(220, 220, 220);
@@ -728,7 +757,7 @@ nav#filter a {
 	text-decoration: none;
 }
 .portfolio-item .portfolio-desc .folio-info {
-	top:-20px;
+	top: -20px;
 	padding: 30px;
 	height: 0;
     opacity: 0;
@@ -776,6 +805,26 @@ nav#filter a {
 	font-family: Georgia, sans-serif;
 	line-height: 1.5em;
 }	
+
+
+/*===========================
+  --- Fun ----
+=========================== */
+
+#section-fun {
+	background: #70B9B0;
+	color: #fdfdfd;
+}
+
+#section-fun h2 {
+	background: #70B9B0;
+	color: #fdfdfd;
+}
+
+#section-fun h4 {
+	background: #70B9B0;
+	color: #fdfdfd;
+}
 
 /*===========================
   --- Contact ----
@@ -1075,6 +1124,12 @@ a.socialIcon:hover, .socialHoverClass {
 /* ========================================
 Media queries
 ========================================= */
+@media (min-width: 1199px) and (max-width: 1400px) {
+	#section-my-startup div#RecsyBlurbPhoto {
+		width:66.66666667%
+	}
+}
+
 @media (min-width: 959px) and (max-width: 1199px) {
 	.navbar-nav {
 		margin-top: 20px;
@@ -1113,21 +1168,26 @@ Media queries
 		padding:40px;
 	}
 
-	#parallax2 h2 { 
+	#section-my-startup {
+		padding:40px;
+	}
+
+	#section-education h2 { 
 		font-size: 30px; 
 	}
 
-	#parallax2 blockquote.bigquote {
+	#section-education blockquote.bigquote {
 		font-size:26px;
 	}
 
-	#parallax3 h2 { 
+	#section-procter-gamble h2 { 
 		font-size: 30px; 
 	}
 
-	#parallax3 blockquote.bigquote {
+	#section-procter-gamble blockquote.bigquote {
 		font-size:26px;
 	}
+
 
 
 }
@@ -1179,22 +1239,28 @@ Media queries
 		padding:40px;
 	}
 
-	#parallax2 h2 { 
+	#section-education h2 { 
 		font-size: 30px; 
 	}
 
-	#parallax2 blockquote.bigquote {
+	#section-education blockquote.bigquote {
 		font-size:26px;
 	}
 
-	#parallax3 h2 { 
+	#section-procter-gamble h2 { 
 		font-size: 30px; 
 	}
 
-	#parallax3 blockquote.bigquote {
+	#section-procter-gamble blockquote.bigquote {
 		font-size:26px;
 	}
 
-
+	#section-my-startup {
+		padding: 40px;
+	}
 
 }
+
+
+
+
