@@ -1291,6 +1291,10 @@ Media queries
 	.navbar .navbar-collapse ul.nav li {
 		border-bottom: 1px solid #666;
 	}
+
+	section.featured {
+		padding-top: 140px;
+	}
 	
 	.team-member,.col-lg-4 {
 		margin-bottom: 30px;

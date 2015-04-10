@@ -1,4 +1,4 @@
 <?php
 // To
-define("WEBMASTER_EMAIL", 'james.z.boyette@vanderbilt.edu');
+define("WEBMASTER_EMAIL", 'jzboyette@gmail.com');
 ?>
