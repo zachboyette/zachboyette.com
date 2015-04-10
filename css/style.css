@@ -63,7 +63,7 @@ blockquote.bigquote {
 	border: none;
 	font-size: 40px;
 	font-weight: 700;
-	line-height: 1.1em;
+	line-height: 1.3em;
 }
 
 .text-bold {
@@ -368,6 +368,8 @@ section.section {
 #section-education{	
 	background-image: url(../img/parallax/education_background.jpg);
 	background-repeat:no-repeat;
+	height:100vh;
+	padding-top:8em;
 }
 
 #section-education h2 {
@@ -1131,6 +1133,9 @@ Media queries
 	#section-my-startup div#RecsyBlurbPhoto {
 		width:66.66666667%
 	}
+	#section-education blockquote.bigquote {
+		font-size:2.813em;
+	}
 }
 
 @media (min-width: 959px) and (max-width: 1199px) {
@@ -1175,16 +1180,8 @@ Media queries
 		padding:40px;
 	}
 
-	#section-education h2 { 
-		font-size: 30px; 
-	}
-
 	#section-education blockquote.bigquote {
 		font-size:26px;
-	}
-
-	#section-procter-gamble h2 { 
-		font-size: 30px; 
 	}
 
 	#section-procter-gamble blockquote.bigquote {
@@ -1242,8 +1239,12 @@ Media queries
 		padding:40px;
 	}
 
+	#section-education { 
+		background-position:right;
+	}
+
 	#section-education h2 { 
-		font-size: 30px; 
+		font-size: 35px; 
 	}
 
 	#section-education blockquote.bigquote {
@@ -1251,7 +1252,7 @@ Media queries
 	}
 
 	#section-procter-gamble h2 { 
-		font-size: 30px; 
+		font-size: 35px; 
 	}
 
 	#section-procter-gamble blockquote.bigquote {
