@@ -401,15 +401,27 @@ line-height: 1.5em;
 	color:black; font-family: 'Dosis', sans-serif; font-weight:200; font-size:35px;
 }
 
+#section-my-startup div#RecsyBlurbPhoto img {
+		padding-bottom:1em;
+	}
+
+#section-my-startup h2 {	
+margin-top:1em;
+margin-bottom:1em;
+font-size: 40px;
+}
+
 #section-my-startup h3 {	
 line-height: 1.2em;
 color:black; font-family: 'Dosis', sans-serif; font-weight:200; font-size:35px;
+margin-bottom:1em;
 }
 
 #section-my-startup h5 {	
 line-height: 1.3em;
 color:black; font-family: 'Dosis', sans-serif; font-weight:200; font-size:26px;
 }
+
 
 #education {
 
@@ -1146,11 +1158,21 @@ Media queries
 ========================================= */
 @media (min-width: 1199px) and (max-width: 1400px) {
 	#section-my-startup {
-		height:100vh;
+		height:110vh;
+		margin-bottom:0em;
+
 	}
 
 	#section-my-startup div#RecsyBlurbPhoto {
-		width:66.66666667%
+		width:66.66666667%;
+		padding-bottom:50px;
+	}
+
+	#section-my-startup h3 {	
+	margin-bottom:50px;
+	}
+
+	#section-my-startup h5 {	
 	}
 
 	#section-education h3 { 
@@ -1312,7 +1334,22 @@ Media queries
 	}
 
 	#section-my-startup {
+		height:120vh;
 		padding: 40px;
+		text-align:center;
+	}
+
+
+	#section-my-startup h2 {	
+	font-size: 30px;
+	margin-top:2em;
+	}
+
+	#section-my-startup h3 {	
+	line-height: 1.2em;
+	color:black; font-family: 'Dosis', sans-serif; font-weight:200; font-size:35px;
+	text-align:center;
+	margin-bottom:1em;
 	}
 
 }
