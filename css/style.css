@@ -345,7 +345,7 @@ section.section {
 ============================= */
 
 #parallax1{	
-	background-image: url(../img/parallax/img1.jpg);
+	background-image: url(../img/parallax/parallax1.jpg);
 	background-repeat:no-repeat;
 	font-family:arial;
 }
@@ -366,7 +366,7 @@ section.section {
 }
 
 #section-education{	
-	background-image: url(../img/parallax/img2.jpg);
+	background-image: url(../img/parallax/education_background.jpg);
 	background-repeat:no-repeat;
 }
 
@@ -377,7 +377,7 @@ section.section {
 }
 
 #section-procter-gamble{	
-	background-image: url(../img/parallax/img3.jpg);
+	background-image: url(../img/parallax/current_job_background.jpg);
 	background-repeat:no-repeat;
 	height:100vh;
 }
