@@ -369,13 +369,17 @@ section.section {
 	background-image: url(../img/parallax/education_background.jpg);
 	background-repeat:no-repeat;
 	height:100vh;
-	padding-top:8em;
+	padding-top:8.5em;
 }
 
 #section-education h2 {
 	color: #fff;
 	font-size: 48px;
 	font-weight: 900;
+}
+
+#section-education h3 {
+line-height: 1.5em;
 }
 
 #section-procter-gamble{	
@@ -394,6 +398,17 @@ section.section {
 #section-my-startup{	
 	background-image: url(../img/blurredWhiteBackground.png);
 	background-repeat: no-repeat;
+	color:black; font-family: 'Dosis', sans-serif; font-weight:200; font-size:35px;
+}
+
+#section-my-startup h3 {	
+line-height: 1.2em;
+color:black; font-family: 'Dosis', sans-serif; font-weight:200; font-size:35px;
+}
+
+#section-my-startup h5 {	
+line-height: 1.3em;
+color:black; font-family: 'Dosis', sans-serif; font-weight:200; font-size:26px;
 }
 
 #education {
@@ -1130,9 +1145,18 @@ a.socialIcon:hover, .socialHoverClass {
 Media queries
 ========================================= */
 @media (min-width: 1199px) and (max-width: 1400px) {
+	#section-my-startup {
+		height:100vh;
+	}
+
 	#section-my-startup div#RecsyBlurbPhoto {
 		width:66.66666667%
 	}
+
+	#section-education h3 { 
+		font-size: 1.875em; 
+	}
+
 	#section-education blockquote.bigquote {
 		font-size:2.813em;
 	}
@@ -1142,12 +1166,28 @@ Media queries
 	.navbar-nav {
 		margin-top: 20px;
 	}
+
+	#section-education h3 { 
+		font-size: 1.875em; 
+	}
+
+	#section-education blockquote.bigquote {
+		font-size:2.813em;
+	}
 }
 
 @media only screen and (min-device-width : 979px) and (max-device-width : 1024px)  {
 
 	.navbar-nav {
 		margin-top: 20px;
+	}
+
+	#section-education h3 { 
+		font-size: 1.875em; 
+	}
+
+	#section-education blockquote.bigquote {
+		font-size:2.813em;
 	}
 }
 
@@ -1180,8 +1220,16 @@ Media queries
 		padding:40px;
 	}
 
+	#section-education h2 { 
+		font-size: 35px; 
+	}
+
+	#section-education h3 { 
+		font-size: 25px; 
+	}
+
 	#section-education blockquote.bigquote {
-		font-size:26px;
+		font-size:30px;
 	}
 
 	#section-procter-gamble blockquote.bigquote {
@@ -1247,8 +1295,12 @@ Media queries
 		font-size: 35px; 
 	}
 
+	#section-education h3 { 
+		font-size: 25px; 
+	}
+
 	#section-education blockquote.bigquote {
-		font-size:26px;
+		font-size:30px;
 	}
 
 	#section-procter-gamble h2 { 
